@@ -1,3 +1,5 @@
 import "./bootstrap";
 import.meta.glob(["../images/**"]);
-import "preline/plugin";
+import "preline";
+import ApexCharts from "apexcharts";
+window.ApexCharts = ApexCharts;
